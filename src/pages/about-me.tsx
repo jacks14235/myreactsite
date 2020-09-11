@@ -5,8 +5,6 @@ import Container from 'react-bootstrap/Container';
 import { MainNavbar } from '../Custom/main-navbar';
 import { AboutMeJumbo } from '../Custom/about-me-jumbo/abtme-jumbo';
 import { JumboData } from '../Custom/about-me-jumbo/jumbo-data';
-import { SpinningImage } from '../Custom/spinning-image';
-import Background from '../Images/background.jpg';
 
 
 type AboutMeProps = {
@@ -15,8 +13,10 @@ type AboutMeProps = {
 
 
 function AboutMe(props: AboutMeProps) {
+    document.title = 'About Me';
+
     return (
-        <div style={{backgroundImage:`url(${Background})`}}>
+        <div>
             <MainNavbar></MainNavbar>
             <Container style={{ padding: '30px' }} fluid>
 

@@ -5,12 +5,12 @@ import Container from 'react-bootstrap/Container';
 import { ProjectView } from '../Custom/project-view';
 import { projectData } from '../Custom/project-data';
 import { MainNavbar } from '../Custom/main-navbar';
-import Background from '../Images/background.jpg';
 
 
 function ProjectsPage() {
+  document.title = 'Projects';
   return (
-    <div style={{backgroundImage:`url(${Background})`}}>
+    <div>
       <MainNavbar />
       <Container fluid>
 

@@ -8,6 +8,7 @@ import Container from 'react-bootstrap/esm/Container';
 
 
 function ResearchPage() {
+    document.title = 'Research';
     return (
         <div>
             <MainNavbar />

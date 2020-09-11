@@ -65,6 +65,30 @@
   border : 10px orangered;
 }
 
+.background-div {
+  background-color: #ffe6a1;
+  height : 100%;
+}
+
+.project-text {
+  color: deeppink;
+  text-shadow: 1px 1px black;
+}
+
+.contact-h1 {
+  text-align: center;
+  color: blue;
+}
+
+.contact-card-title {
+  color:darkblue;
+  text-align: center;
+}
+
+.contact-h3 {
+  color: deeppink
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

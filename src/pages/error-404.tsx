@@ -5,6 +5,8 @@ import {MainNavbar} from '../Custom/main-navbar';
 
 
 function Error404() {
+    document.title = '404 Error';
+
     return (
         <div>
             <MainNavbar />

@@ -36,7 +36,7 @@ function ProjectView(props: ProjectViewProps) {
                 <h3 style={{ color: "white" }}>{projectData[props.index].subtitle}</h3>
                 <Row style={{ height: "100%" }}>
                     <Col>
-                        <p style={{ color: 'deeppink' }}>Test {projectData[props.index].description}</p>
+                        <p className="project-text">Test {projectData[props.index].description}</p>
                     </Col>
                     <Col>
                         <Button variant="primary" className="centered" size={'sm'}>

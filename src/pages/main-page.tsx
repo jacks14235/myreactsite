@@ -5,11 +5,11 @@ import { MainNavbar } from '../Custom/main-navbar';
 import { Container, Row, Col } from 'react-bootstrap';
 import { CardData } from '../Custom/card-data';
 import { FlipCard } from '../Custom/flip-card';
-import Background from '../Images/background.jpg';
 
 function MainPage() {
+    document.title = 'Jack Stanley';
     return (
-        <div style={{backgroundImage:`url(${Background})`}}>
+        <div >
             <MainNavbar />
             <Container fluid>
                 <Row style={{ height: '150px' }}>
