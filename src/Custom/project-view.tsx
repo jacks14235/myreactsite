@@ -7,6 +7,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import { projectData } from './project-data';
+import { LinkContainer } from 'react-router-bootstrap';
 
 
 type ProjectViewProps = {
@@ -39,8 +40,8 @@ function ProjectView(props: ProjectViewProps) {
                         <p className="project-text">Test {projectData[props.index].description}</p>
                     </Col>
                     <Col>
-                        <Button variant="primary" className="centered" size={'sm'}>
-                            View on Github
+                        <Button variant="primary" className="centered" size={'sm'} href={projectData[props.index].link}>
+                            View on GithubTest
                         </Button>
                     </Col>
                 </Row>
