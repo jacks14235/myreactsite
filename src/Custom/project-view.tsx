@@ -41,7 +41,7 @@ function ProjectView(props: ProjectViewProps) {
                     </Col>
                     <Col>
                         <Button variant="primary" className="centered" size={'sm'} href={projectData[props.index].link}>
-                            View on GithubTest
+                            View on Github
                         </Button>
                     </Col>
                 </Row>
