@@ -26,7 +26,7 @@ export const projectData = [
     'subtitle' : 'C, C++, Cuda',
     'description' : "The mandelbrot set has always been fascinating to me, making this one of my favorite programs I have written. Although the writing a simple viewer is relatively simple, I love challenging myself to make the image generation as fast as I possibly can. When I wrote it for the first time in python, it took around 10 seconds to generate an image. Now, using C++ and Cuda, I have been able to optimize this generation to just 15 milliseconds per frame. This app also has a simple UI that allows users to zoom in and out and even save a series of images zooming in to their current position.",
     'image' : mandelbrot,
-    'link' : ''
+    'link' : 'https://github.com/jacks14235/MandelbrotCPP'
 },
 
     {'title': "Celestial Body Simulator",
