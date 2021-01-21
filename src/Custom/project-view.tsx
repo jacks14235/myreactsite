@@ -35,6 +35,7 @@ function jumboStyle2(props: ProjectViewProps) {
     padding:'5%',
     width: '80%',
     height: '80%',
+    minHeight: '500px',
     margin: 'auto',
     marginTop: '10%',
   });
@@ -47,14 +48,14 @@ function ProjectView(props: ProjectViewProps) {
     <Container style={{ padding: '30px' }} fluid>
       <Jumbotron style={jumboStyle(props)}>
         <h1 style={{ color: "lightgray", fontSize: "x-large" }}>{projectData[props.index].title}</h1>
-        <h3 style={{ color: "white", fontSize: "large" }}>{projectData[props.index].subtitle}</h3>
+        <h3 style={{ color: "deeppink", fontSize: "large" }}>{projectData[props.index].subtitle}</h3>
         <Row style={{ height: "300px" }}>
           <Col style={{ overflow: "scroll" }}>
             <p className="project-text">{projectData[props.index].description}</p>
           </Col>
           <Col>
             <Button variant="primary" className="centered" size={'sm'} href={projectData[props.index].link}>
-              View on Github
+              {projectData[props.index].linkText? projectData[props.index].linkText : 'View on Github'}
             </Button>
           </Col>
         </Row>
@@ -67,14 +68,14 @@ function ProjectView2(props: ProjectViewProps) {
   return (
     <div style={jumboStyle2(props)}>
       <h1 style={{color: 'lightgray', height:'10%'}}>{projectData[props.index].title}</h1>
-      <h3 style={{ color: "white", height:'7%' }}>{projectData[props.index].subtitle}</h3>
+      <h3 style={{ color: "deeppink", height:'7%' }}>{projectData[props.index].subtitle}</h3>
         <Row style={{ height: "fit-content" }}>
           <Col>
             <p className="project-text">{projectData[props.index].description}</p>
           </Col>
           <Col>
             <Button variant="primary" className="centered" size={'sm'} href={projectData[props.index].link}>
-              View on Github
+              {projectData[props.index].linkText || 'View on Github'}
             </Button>
           </Col>
         </Row>
