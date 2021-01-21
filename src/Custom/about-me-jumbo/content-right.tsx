@@ -17,7 +17,7 @@ type AboutMeProps = {
 
 function ContentR(props: AboutMeProps) {
     return (
-        <Row className="align-items-center" style={{}} xl={2}>
+        <Row className="align-items-center" style={{height:'fit-content'}} xl={2}>
             <Col>
                 <Container fluid>
                     <Image src={JumboData[props.index].image} alt={JumboData[props.index].title + "image"} fluid roundedCircle />

@@ -15,11 +15,11 @@ type AboutMeProps = {
 function jumboStyle () {
     return ({
         width : '80%',
-        height : '500px',
+        height : 'fit-content',
+        minHeight : '500px',
         margin : 'auto',
         padding : '40px'
     });
-
 }
 
 

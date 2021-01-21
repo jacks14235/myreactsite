@@ -59,6 +59,7 @@
 .fullscreen {
   width : 100%;
   height: 100%;
+  margin: auto;
 }
 
 .big-border {
@@ -73,7 +74,9 @@
 .project-text {
   color: deeppink;
   text-shadow: 1px 1px black;
+  font-size:15px;
 }
+
 
 .contact-h1 {
   text-align: center;
