@@ -2,7 +2,7 @@ import React from 'react';
 import { MainNavbar } from '../Custom/main-navbar';
 import { Card, Container, Row, Col } from 'react-bootstrap';
 import email from '../Images/contact-email.png';
-import phone from '../Images/contact-phone.jpg';
+import phone from '../Images/contact-phone.png';
 
 function ContactMe() {
   document.title = 'Contact Me';
@@ -16,8 +16,10 @@ function ContactMe() {
         </Row>
         <Row xl={2} md={2} sm={1} xs={1}>
           <Col>
-            <Card style={{marginBottom:"10%"}}>
+            <Card style={{marginBottom:"10%", padding: "5%"}}>
               <Card.Img variant="top" src={email} />
+              <br />
+              <br />
               <Card.Title className="contact-card-title">Email</Card.Title>
               <Card.Subtitle className="contact-card-title">jcs9@princeton.edu</Card.Subtitle>
               <br />
@@ -25,8 +27,10 @@ function ContactMe() {
             </Card>
           </Col>
           <Col>
-            <Card style={{marginBottom:"10%"}}>
+            <Card style={{marginBottom:"10%", padding:"5%"}}>
               <Card.Img variant="top" src={phone} />
+              <br />
+              <br />
               <Card.Title className="contact-card-title">Phone</Card.Title>
               <Card.Subtitle className="contact-card-title">973-479-0958</Card.Subtitle>
               <br />
