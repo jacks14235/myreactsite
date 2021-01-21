@@ -1,7 +1,7 @@
 import React from 'react';
 import { MainNavbar } from '../Custom/main-navbar';
 import { Card, Container, Row, Col } from 'react-bootstrap';
-import email from '../Images/contact-email.jpg';
+import email from '../Images/contact-email.png';
 import phone from '../Images/contact-phone.jpg';
 
 function ContactMe() {
@@ -12,7 +12,7 @@ function ContactMe() {
       <MainNavbar />
       <Container fluid>
         <Row style={{ width: "80%", margin: '10%' }}>
-          <h3 className='contact-h1'>Please feel free to contact me about any job or internship opportunities or any questions you have about my programs or research!</h3>
+          <h3 className='contact-h1'>Please feel free to contact me about any job or internship opportunities or any questions you have about my projects or research!</h3>
         </Row>
         <Row xl={2} md={2} sm={1} xs={1}>
           <Col>

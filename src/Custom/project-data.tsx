@@ -31,7 +31,7 @@ export const projectData = [
     'title': "Distance Measurement App",
     'index': 2,
     'subtitle': 'Android Studio, Java, XML',
-    'description': '"GPS Ruler" is an adroid app that I made after being dissatisfied with the apps that were currently available. There are many situations, such as golf or disc golf, where users want to measure the distance of a few hundred feet. While there were many apps that used the GPS to accomplish this, they only took one sample at each point, meaning measurements were very innacurate. I solved this by averaging many points on each end of the measurent and using statistical analysis to alert users of error and outliers in their measurement and showing the measurements on a Google map.',
+    'description': '"GPS Ruler" is an android app that I made after being dissatisfied with the apps that were currently available. There are many situations, such as golf or disc golf, where users want to measure the distance of a few hundred feet. While there were many apps that used the GPS to accomplish this, they only took one sample at each point, meaning measurements were very innacurate. I solved this by averaging many points on each end of the measurent and using statistical analysis to alert users of error and outliers in their measurement and showing the measurements on a Google map.',
     'image': map,
     'link': 'https://github.com/jacks14235/GPSRuler'
   },
