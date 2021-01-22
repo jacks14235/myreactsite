@@ -17,7 +17,7 @@ type AboutMeProps = {
 
 function ContentL(props: AboutMeProps) {
     return (
-        <Row className="align-items-center" style={{ }} xl={2}>
+        <Row className="align-items-center" style={{height:'fit-content'}} xl={2}>
             <Col style={{ borderRight: "5px" }}>
                 <h1>{JumboData[props.index].title}</h1>
                 <p>{JumboData[props.index].text}</p>

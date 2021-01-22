@@ -32,9 +32,6 @@ function MainNavbar() {
                 </LinkContainer>
 
             </Nav>
-            <LinkContainer to="/projects">
-                <Nav.Link>Contact Me</Nav.Link>
-            </LinkContainer>
         </Navbar>
     );
 }
